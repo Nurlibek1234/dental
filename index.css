@@ -1,0 +1,976 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header starting */
+header {
+    width: 100%;
+    background-color: rgba(35, 120, 201, 1);
+}
+
+header .header-top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-top h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+header .header-top h6 .fa-sharp {
+    margin-right: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .header-top .address {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-top .address p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+header .header-top .address p .fa-solid {
+    margin-right: 10px;
+}
+
+header .header-top .address {
+    margin-left: 15px;
+}
+
+header .header-top .address .brands .fa-brands {
+    margin-right: 30px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .navbar img {
+    margin-top: 37px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+header .navbar .collapse .navbar-nav {
+    margin-left: 29px;
+    align-items: center;
+    margin-top: 7px;
+}
+
+header .navbar .collapse .navbar-nav .nav-item {
+    margin-right: 39px;
+}
+
+header .navbar .collapse .navbar-nav .nav-item:last-child {
+    margin-right: 0px;
+}
+
+header .navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(48, 45, 45, 1);
+}
+
+header .navbar .collapse button {
+    margin-left: 89px;
+    width: 268px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(248, 109, 109, 1);
+}
+
+header .header-title {
+    width: 100%;
+    background-color: rgba(14, 110, 170, 1);
+}
+
+header .header-title .stom {
+    margin-top: 179px;
+}
+
+header .header-title .stom p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(197, 193, 254, 1);
+}
+
+header .header-title .stom .talant {
+    margin-top: 11px;
+}
+
+header .header-title .stom .talant h4 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 66px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .header-title .stom .talant p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 21px;
+}
+
+header .header-title .stom .talant button {
+    margin-top: 26px;
+    margin-bottom: 177px;
+    width: 255px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(94, 184, 240, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+header .header-title .picture {
+    margin-left: 80px;
+    position: relative;
+}
+
+header .header-title .picture img:nth-child(1) {
+    position: absolute;
+    top: 11px;
+    z-index: 999;
+}
+
+header .header-title .picture img:nth-child(2){
+    margin-top: 170px;
+    margin-left: 220px;
+}
+
+/* main starting */
+main {
+    width: 100%;
+}
+
+main .mask {
+    margin-top: 115px;
+}
+
+main .clinica {
+    margin-top: 155px;
+    margin-left: 121px;
+}
+
+main .clinica h4 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(48, 45, 45, 1);
+}
+
+main .clinica h4 span {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(35, 120, 201, 1);
+}
+
+main .clinica p {
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(107, 104, 104, 1);
+}
+
+/* main .clinica h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(48, 45, 45, 1);
+} */
+
+main .clinica .uslugi {
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+main .clinica .uslugi h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(48, 45, 45, 1); 
+}
+
+main .clinica .uslugi .decen {
+    display: flex;
+}
+
+main .clinica .uslugi .decen .tooth {
+    margin-right: 100px;
+}
+
+main .clinica .uslugi .decen .tooth p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(48, 45, 45, 1);
+}
+
+main .clinica .uslugi .decen .smile p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(48, 45, 45, 1);
+}
+
+/* section-client starting */
+section.client {
+    width: 100%;
+    background-color: rgba(223, 238, 252, 1);
+    margin-top: 95px;
+}
+
+section.client .usluga {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+
+section.client .usluga h6 {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.client .usluga p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(86, 86, 94, 1);
+}
+
+/* section-team */
+section.team {
+    width: 100%;
+}
+
+section.team .special {
+    margin-top: 90px;
+    text-align: center;
+}
+
+section.team .special h4 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(48, 45, 45, 1);
+}
+
+section.team .special p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(48, 45, 45, 1);
+}
+
+section.team .card {
+    margin-top: 45px;
+    border-bottom: 50px;
+    background-color: rgba(35, 120, 201, 1);
+}
+
+section.team .card h6 {
+    margin-top: 22px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+section.team .card p {
+    margin-top: 7px;
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* section-treathment starting */
+section.treathment {
+    width: 100%;
+    margin-top: 119px;
+    background: linear-gradient(257.92deg, #DFEEFC 11.01%, rgba(167, 210, 251, 0.92) 92.77%);
+}
+
+section.treathment .picture {
+    margin-right: 500px;
+    position: relative;
+}
+
+section.treathment .picture img {
+    position: absolute;
+    left: -290px !important;
+}
+
+section.treathment .price {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    width: 712px;
+    height: 737px;
+    border-radius: 20px;
+    background-color: rgba(94, 184, 240, 1);
+}
+
+section.treathment .price .menu {
+    padding-top: 45px;
+    text-align: center;
+}
+
+section.treathment .price .menu h4 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0px;
+}
+
+section.treathment .price .menu p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+section.treathment .price .categories {
+    margin-top: 72px;
+    margin-left: 61px;
+    width: 590px;
+    height: 434px;
+    /* margin-bottom: 55px; */
+}
+
+section.treathment .price .categories .tooth {
+    border-bottom: 1px dashed #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 55px; */
+}
+
+section.treathment .price .categories .tooth p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+
+section.treathment .price .categories .tooth h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 28px;
+}
+
+/* section-news starting */
+section.news {
+    width: 100%;
+}
+
+section.news h4 {
+    text-align: center;
+    margin-top: 105px;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(48, 45, 45, 1);
+}
+
+section.news .card {
+    width: 387px;
+    height: 582px;
+    border-radius: 20px;
+    background-color: rgba(246, 246, 246, 1);
+    border: none;
+    margin-top: 43px;
+}
+
+section.news .card .box {
+    margin: 15px 15px 37px 15px;
+}
+
+section.news .card .box .date {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px 14px 15px;
+}
+
+section.news .card .box .date p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(169, 169, 169, 1);
+}
+
+section.news .card .box .date p span {
+    font-weight: 700;
+    color: rgba(48, 45, 45, 1);
+}
+
+section.news .card .box .title {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+section.news .card .box .title h6 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: rgba(48, 45, 45, 1);
+}
+
+section.news .card .box .title p {
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(86, 86, 94, 1);
+}
+
+section.news .card .box .title button {
+    margin-top: 9px;
+    width: 327px;
+    height: 53px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(94, 184, 240, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* section-comment starting */
+section.comment {
+    width: 100%;
+    height: 690px;
+    margin-top: 116px;
+    background: rgba(50, 48, 48, 0.39);
+    background-image: url("./picture/bg-image.png");
+}
+
+section.comment .otziv .arrow {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+section.comment .otziv .arrow .fa-solid:first-child {
+    position: absolute;
+    bottom: 150px;
+    padding-top: 25px;
+    left: -25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(197, 193, 254, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+section.comment .otziv .arrow .fa-solid:last-child {
+    position: absolute;
+    bottom: 150px;
+    padding-top: 25px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(197, 193, 254, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+section.comment .otziv {
+    width: 1060px;
+    height: 510px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 90px 270px 90px 130px;
+}
+
+section.comment .otziv h4 {
+    padding-top: 55px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(48, 45, 45, 1);
+}
+
+section.comment .otziv .person {
+    margin-top: 66px;
+    margin-left: 128px;
+    display: flex;
+}
+
+section.comment .otziv .person .recommend {
+    margin-left: 52px;
+    margin-top: 14px;
+}
+
+section.comment .otziv .person .recommend p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(107, 104, 104, 1);
+}
+
+section.comment .otziv .person .recommend .profile {
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.comment .otziv .person .recommend .profile h6 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53px;
+    color: rgba(35, 120, 201, 1);
+}
+
+section.comment .otziv .person .recommend .profile .logo .fa-brands {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(231, 231, 231, 1);
+    padding-left: 12px;
+    padding-top: 12px;
+    justify-content: center;
+}
+
+section.registr {
+    width: 100%;
+    height: 710px;
+    background: linear-gradient(257.92deg, #DFEEFC 11.01%, rgba(167, 210, 251, 0.92) 92.77%);
+}
+
+section.registr .card {
+    width: 425px;
+    height: 475px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 117px;
+    margin-left: 150px;
+}
+
+section.registr .card .box {
+    padding: 59px 49px;
+}
+
+section.registr .card .box h4 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(48, 45, 45, 1);
+    margin-bottom: 29px;
+}
+
+section.registr .card .box input {
+    width: 328px;
+    height: 62px;
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 20px;
+}
+
+section.registr .card .box input:last-child {
+    margin-top: 20px;
+}
+
+section.registr .card .box button {
+    margin-top: 20px;
+    width: 328px;
+    height: 59px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(94, 184, 240, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+
+section.registr .card .box p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(116, 116, 116, 1);
+}
+
+section.registr .picture {
+    position: relative;
+}
+
+section.registr .picture img {
+    position: absolute;
+    bottom: -710px;
+    left: 80px;
+}
+
+/* footer starting */
+footer {
+    width: 100%;
+    border: 1px solid rgba(180, 180, 180, 0.35);
+    background-color: rgba(16, 64, 111, 1);
+}
+
+footer .col-3:first-child {
+    border-right: 1px solid rgba(180, 180, 180, 0.35);
+}
+
+footer .col-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.35);
+}
+
+footer .footer-left {
+    margin-top: 66px;
+}
+
+footer .footer-left .location {
+    margin-top: 92px;
+    margin-bottom: 0px;
+}
+
+footer .footer-left .location p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+}
+
+footer .footer-left .location p .fa-sharp {
+    margin-right: 20px;
+}
+
+footer .footer-left .location p .fa-solid {
+    margin-right: 10px;
+}
+
+footer .footer-left .footer-logo {
+    margin-top: 74px;
+}
+
+footer .footer-left .footer-logo .fa-brands {
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 52px;
+    height: 52px;
+}
+
+footer ul:first-child {
+    margin-left: 95px;
+    margin-top: 68px;
+    margin-bottom: 62px;
+}
+
+footer ul a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+footer ul li {
+    margin-top: 21px;
+}
+
+footer ul li p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(224, 224, 224, 1);
+}
+
+footer .footer-bottom {
+    width: 100%;
+    background-color: rgba(16, 64, 111, 1);
+}
+
+footer .footer-bottom p {
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Responsive: lg(992px - 1199px)*/
+/* @media (max-width: 1199px) {
+    header .navbar .collapse .navbar-nav {
+        margin-left: 15px;
+    }
+    header .navbar .collapse .navbar-nav .nav-item {
+        margin-right: 12px;
+    }
+
+    header .navbar .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+    header .navbar .collapse button {
+        width: 228px;
+        height: 50px;
+        font-size: 17px;
+        margin-left: 69px;
+    }
+    header .header-title .stom .talant h4 {
+        font-size: 44px;
+    }
+    header .header-title .stom .talant p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    header .header-title .stom .talant button {
+        margin-top: 15px;
+        width: 205px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    header .header-title .picture {
+        margin-left: 60px;
+        margin-bottom: 175px;
+    }
+    main .clinica {
+        margin-left: 221px;
+        margin-top: 130px;
+    }
+    main .clinica h4 {
+        font-size: 30px;
+    }
+    main .clinica h4 span {
+        font-size: 50px;
+    }
+    main .clinica p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    main .clinica .uslugi h6 {
+        font-size: 15px;
+    }
+    main .clinica .uslugi .decen .tooth p {
+        font-size: 15px;
+    }
+    main .clinica .uslugi .decen .smile p {
+        font-size: 15px;
+    }
+
+    section.client .usluga h6 {
+        font-size: 20px;
+    }
+    section.client .usluga p {
+        font-size: 16px;    
+    }
+
+    section.treathment .price {
+        width: 470px;
+        height: 700px;
+    }
+    section.treathment .price .menu h4 {
+        font-size: 40px;
+    }
+    section.treathment .price .categories {
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 390px;
+    }
+    section.treathment .picture img {
+        position: absolute;
+        left: -231px !important;
+        width: 555px;
+        top: 200px;
+    }      
+    section.treathment .price .categories .tooth p {
+        font-size: 15px;
+    }
+    section.treathment .price .categories .tooth h6 {
+        font-size: 15px;
+    }
+    section.news .card {
+        width: 300px;
+        height: 500px;
+    }
+    section.news .card .box img {
+        width: 270px;
+    }
+    section.news .card .box .date {
+        margin: 20px 15px 5px 15px;
+    }
+    section.news .card .box .date p {
+        font-size: 12px;
+    }
+    section.news .card .box .title h6 {
+        font-size: 17px;
+    }
+    section.news .card .box .title p {
+        font-size: 12px;
+    }
+    section.news .card .box .title button {
+        width: 250px;
+        height: 50px;
+    }
+    section.comment .otziv {
+        width: 800px;
+        height: 480px;
+        margin: 90px 0px 90px 70px;
+    }
+    section.comment .otziv .person {
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    section.comment .otziv h4 {
+        font-size: 40px;
+    }
+    section.comment .otziv .person .recommend p {
+        font-size: 15px;
+    }
+    section.comment .otziv .person .recommend .profile {
+        margin-top: 25px;
+    }
+    section.comment .otziv .person .recommend .profile h6 {
+        font-size: 25px;
+    }
+    section.registr .card {
+        width: 350px;
+        height: 430px;
+        margin-left: 75px;
+    }
+    section.registr .card .box {
+        padding: 49px 39px;
+    }
+    section.registr .card .box h4 {
+        font-size: 28px;
+    }
+    section.registr .card .box input {
+        width: 275px;
+        height: 50px;
+    }
+    section.registr .card .box button {
+        width: 270px;
+        height: 50px;
+    }
+    section.registr .picture img {
+        left: -30px;
+        height: 675px;
+    }
+    footer .footer-left img {
+        margin-left: 20px;
+    }
+    footer .footer-left .location {
+        margin-left: 15px;
+    }
+    footer .footer-left .location p {
+        font-size: 12px;
+    }
+    footer .footer-left .footer-logo {
+        margin-left: 20px;  
+    }
+    footer ul:first-child {
+        margin-left: 0px;
+    }
+} */
+
+/* Responsive: md(768px - 991px)*/
+@media (max-width: 991px) {
+    header .header-top h6 {
+        font-size: 10px;
+    }
+    header .header-top h6 .fa-sharp {
+        margin-right: 10px;
+    }
+    header .header-top .address {
+        margin-left: 0px;
+    }
+    header .header-top .address p {
+        font-size: 13px;
+    }
+    header .header-top .address .brands .fa-brands {
+        margin-right: 15px;
+    }
+    header .navbar {
+        background-color: rgba(14, 110, 170, 1);
+    }
+    .bg-light {
+        background-color: none;
+        --bs-bg-opacity: none;
+    }
+    header .navbar img {
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+    header .navbar .collapse .navbar-nav {
+        margin-left: 0px;
+    }
+    header .navbar .collapse .navbar-nav .nav-item .nav-link {
+        margin-bottom: 0px;
+    }
+    header .navbar .collapse .navbar-nav .nav-item:last-child {
+        margin-left: -30px;
+    }
+    header .navbar .collapse button {
+        margin-left: 225px;
+        width: 220px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
